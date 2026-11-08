@@ -1,0 +1,5 @@
+# local tooling and source assets, not used by the site
+tools/
+models/navy-mask.png
+models/navy-mask-handpainted.png
+images/manu-cut.png

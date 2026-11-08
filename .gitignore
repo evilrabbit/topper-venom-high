@@ -1,0 +1,16 @@
+.vercel
+.DS_Store
+node_modules/
+
+# Large / regenerable working files (kept locally, not in git)
+*.blend
+*.blend1
+tools/shoe/*.glb
+tools/shoe/*.webp
+tools/shoe/render_*.png
+tools/shoe/reverted-materials/
+tools/shoe/pipeline/data/
+tools/editor/maps.bak-*/
+tools/editor/history/
+tools/editor/state/*.bak*
+tools/editor/state/paint.bak*

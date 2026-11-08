@@ -1,0 +1,123 @@
+{
+ "name": "navy",
+ "parts": {
+  "upper": {
+   "color": "#f1f1f3",
+   "material": "leather",
+   "detail": 0.6
+  },
+  "toe_cap": {
+   "color": "#f1f1f3",
+   "material": "leather",
+   "detail": 0.6
+  },
+  "vamp_panel": {
+   "color": "#1b2045",
+   "material": "leather",
+   "detail": 0.5,
+   "force": true
+  },
+  "heel_tab": {
+   "color": "#f1f1f3",
+   "material": "leather",
+   "detail": 0.6
+  },
+  "triangle_1.L": {
+   "color": "#1b2045",
+   "material": "leather",
+   "detail": 0.5
+  },
+  "triangle_1.R": {
+   "color": "#1b2045",
+   "material": "leather",
+   "detail": 0.5
+  },
+  "triangle_2.L": {
+   "color": "#1b2045",
+   "material": "leather",
+   "detail": 0.5
+  },
+  "triangle_2.R": {
+   "color": "#1b2045",
+   "material": "leather",
+   "detail": 0.5
+  },
+  "triangle_3.L": {
+   "color": "#1b2045",
+   "material": "leather",
+   "detail": 0.5
+  },
+  "triangle_3.R": {
+   "color": "#1b2045",
+   "material": "leather",
+   "detail": 0.5
+  },
+  "triangle_4.L": {
+   "color": "#1b2045",
+   "material": "leather",
+   "detail": 0.5
+  },
+  "triangle_4.R": {
+   "color": "#1b2045",
+   "material": "leather",
+   "detail": 0.5
+  },
+  "collar": {
+   "color": "#c4c6cc",
+   "material": "nylon",
+   "detail": 0.6
+  },
+  "tongue": {
+   "color": "#f1f1f3",
+   "material": "nylon",
+   "detail": 0.6
+  },
+  "tongue_badge": {
+   "color": "#f1f1f3",
+   "material": "print",
+   "detail": 0.6,
+   "ink": 0.6
+  },
+  "laces": {
+   "color": "#f1f1f3",
+   "material": "nylon",
+   "detail": 0.6
+  },
+  "lining": {
+   "color": "#f1f1f3",
+   "material": "mesh",
+   "detail": 0.6
+  },
+  "midsole": {
+   "color": "#f1f1f3",
+   "material": "eva",
+   "detail": 0.6
+  },
+  "heel_plate": {
+   "color": "#f1f1f3",
+   "material": "eva",
+   "detail": 0.6,
+   "ink": 0.6
+  },
+  "window_frame": {
+   "color": "#f1f1f3",
+   "material": "eva",
+   "detail": 0.6
+  },
+  "heel_ribs": {
+   "color": "#f1f1f3",
+   "material": "rubber",
+   "detail": 0.6
+  },
+  "outsole": {
+   "color": "#1b2045",
+   "material": "rubber",
+   "detail": 0.5
+  },
+  "toe_bumper": {
+   "color": "#1b2045",
+   "material": "rubber",
+   "detail": 0.5
+  }
+ }
+}

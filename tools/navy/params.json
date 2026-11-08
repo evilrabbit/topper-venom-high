@@ -1,0 +1,67 @@
+{
+ "mask": "/Users/evilrabbit/topper-venom/models/navy-mask.png",
+ "white": "#f1f1f3",
+ "navy": "#1b2045",
+ "ink": "#0b0b0b",
+ "wmin": 0.8,
+ "nmin": 0.97,
+ "nmax": 1.02,
+ "band_heel": 0.075,
+ "band_mid": 0.055,
+ "band_toe": 0.2,
+ "band_heel_z": 0.12,
+ "band_toe_z": 0.7,
+ "band_stripes": 1.0,
+ "heel_text": [
+  0.03,
+  0.284,
+  0.145,
+  0.22
+ ],
+ "tongue_logo": [
+  0.25,
+  0.56,
+  0.68,
+  0.89
+ ],
+ "tongue_x": [
+  0.2,
+  0.21
+ ],
+ "arrows": [
+  0.516,
+  0.592,
+  0.114,
+  0.149
+ ],
+ "views": {
+  "ref": [
+   -2.3,
+   -1.3,
+   0.75
+  ],
+  "side": [
+   -2.6,
+   0.0,
+   0.25
+  ]
+ },
+ "panel_close": 14,
+ "ink_r": 6,
+ "key": 110,
+ "fill": 35,
+ "detail_r": 6,
+ "detail_k": 0.9,
+ "wbase": 0.82,
+ "lace_piece": [],
+ "detail_floor": 0.2,
+ "detail_k_dark": 0.3,
+ "vox": [
+  256,
+  2,
+  0.45,
+  3,
+  0.28,
+  0.78
+ ]
+}

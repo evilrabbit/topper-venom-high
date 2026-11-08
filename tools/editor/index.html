@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Topper · Colorway editor</title>
+  <script type="importmap">
+    { "imports": { "three": "../../vendor/three/three.module.js", "three/addons/": "../../vendor/three/addons/" } }
+  </script>
+  <link rel="stylesheet" href="editor.css">
+</head>
+<body>
+  <aside class="panel">
+    <header class="panel__head">
+      <strong>TOPPER<sup>®</sup></strong>
+      <span class="mono">Colorway editor · Navy</span>
+    </header>
+
+    <section class="group">
+      <h2 class="mono">Tool</h2>
+      <div class="tools" role="radiogroup">
+        <button data-tool="brush" class="is-on" title="Brush (B)">Brush <kbd>B</kbd></button>
+        <button data-tool="erase" title="Eraser (E)">Erase <kbd>E</kbd></button>
+        <button data-tool="fill" title="Fill a whole part (F)">Fill part <kbd>F</kbd></button>
+        <button data-tool="pick" title="Eyedropper (I, or Alt-click)">Pick <kbd>I</kbd></button>
+        <button data-tool="pen" title="Pen: click points, Enter to apply (P)">Pen <kbd>P</kbd></button>
+        <button data-tool="rotate" title="Rotate: left drag turns the shoe (R)">Rotate <kbd>R</kbd></button>
+      </div>
+    </section>
+
+    <section class="group">
+      <h2 class="mono">Color</h2>
+      <div class="color">
+        <input type="color" id="color" value="#1b2045">
+        <input type="text" id="colorHex" class="mono" value="#1b2045" spellcheck="false" maxlength="7">
+      </div>
+      <div class="swatches" id="swatches"></div>
+    </section>
+
+    <section class="group">
+      <h2 class="mono">Brush</h2>
+      <label class="row"><span>Size</span><input type="range" id="size" min="0.5" max="40" step="0.5" value="6"><output class="mono" id="sizeOut">6 mm</output></label>
+      <label class="row"><span>Hardness</span><input type="range" id="hard" min="0" max="1" step="0.01" value="0.9"><output class="mono" id="hardOut">90%</output></label>
+      <label class="row"><span>Opacity</span><input type="range" id="opacity" min="0.05" max="1" step="0.01" value="1"><output class="mono" id="opacityOut">100%</output></label>
+      <label class="check"><input type="checkbox" id="maskPart" checked> Stay inside the part I start on</label>
+      <label class="check"><input type="checkbox" id="outlines" checked> Show part outlines</label>
+      <label class="row" title="Rounds the stair-stepped part borders into a smooth contour"><span>Edges</span><input type="range" id="smooth" min="0" max="16" step="1" value="2"><output class="mono" id="smoothOut">2 px</output></label>
+    </section>
+
+    <section class="group pen" id="penGroup">
+      <h2 class="mono">Pen</h2>
+      <div class="seg" role="radiogroup">
+        <button data-penmode="fill" class="is-on" title="Close the outline and fill it">Fill shape</button>
+        <button data-penmode="line" title="Draw a line at the brush size">Line</button>
+      </div>
+      <label class="check"><input type="checkbox" id="penCurves"> Smooth curves <span class="muted">(double-click a point to toggle)</span></label>
+      <div class="row2b">
+        <button id="penApply" class="primary" disabled>Apply <kbd>⏎</kbd></button>
+        <button id="penCancel" disabled>Cancel <kbd>Esc</kbd></button>
+      </div>
+      <p class="mono note" id="penInfo">Click on the shoe to place points. Drag a point to adjust it. Click the first point to close.</p>
+    </section>
+
+    <section class="group group--parts">
+      <h2 class="mono">Parts <span id="hoverName" class="hover"></span></h2>
+      <ul class="parts" id="parts"></ul>
+    </section>
+
+    <footer class="panel__foot">
+      <div class="row2">
+        <button id="undo" title="Undo (⌘Z)">Undo</button>
+        <button id="redo" title="Redo (⇧⌘Z)">Redo</button>
+        <button id="clearPaint" title="Remove all brush strokes">Clear paint</button>
+      </div>
+      <button id="save" class="primary">Save to site</button>
+      <a class="mono link" href="http://localhost:8010/#build" target="topper-site">Open site ↗</a>
+      <p class="mono status" id="status">Loading…</p>
+    </footer>
+  </aside>
+
+  <main class="stage">
+    <canvas id="view" data-cursor="grab"></canvas>
+    <canvas id="overlay" aria-hidden="true"></canvas>
+    <div class="toolbar" role="toolbar" aria-label="History and view">
+      <button id="tbUndo" title="Undo (⌘Z)" disabled>↶ Undo <b></b></button>
+      <button id="tbRedo" title="Redo (⇧⌘Z)" disabled>Redo ↷ <b></b></button>
+      <span class="sep"></span>
+      <button data-view="side" title="Side (1)">Side</button>
+      <button data-view="other" title="Other side (2)">Other side</button>
+      <button data-view="front" title="Toe (3)">Toe</button>
+      <button data-view="back" title="Heel (4)">Heel</button>
+      <button data-view="top" title="Top (5)">Top</button>
+      <button data-view="three" title="Reset view (0)">Reset</button>
+    </div>
+    <p class="mono hint">Drag on the shoe: paint · Drag off the shoe, right drag, Space+drag or R: rotate · Two-finger scroll: rotate · Pinch / wheel: zoom · Arrows: turn · [ ] brush size · Pen: ⏎ apply, Esc cancel, ⌫ remove point · ⌘Z / ⇧⌘Z</p>
+  </main>
+
+  <script type="module" src="editor.js"></script>
+</body>
+</html>

@@ -1,0 +1,394 @@
+{
+ "parts": [
+  {
+   "name": "collar",
+   "color": "#c4c6cc",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.07040810585021973
+  },
+  {
+   "name": "collar.2",
+   "color": "#c4c6cc",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.07040810585021973
+  },
+  {
+   "name": "forefoot_panel.R",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.803741991519928
+  },
+  {
+   "name": "heel_overlay",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.08915135264396667
+  },
+  {
+   "name": "heel_pull_tab",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.05187809094786644
+  },
+  {
+   "name": "heel_wedge",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.7905412912368774
+  },
+  {
+   "name": "heel_wedge.2",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.7905412912368774
+  },
+  {
+   "name": "heel_wedge.3",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.7905412912368774
+  },
+  {
+   "name": "heel_wedge.4",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.7905412912368774
+  },
+  {
+   "name": "heel_wedge.5",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.7905412912368774
+  },
+  {
+   "name": "laces",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.06133854016661644
+  },
+  {
+   "name": "lining",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.041009243577718735
+  },
+  {
+   "name": "midsole",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.08204773813486099
+  },
+  {
+   "name": "midsole.2",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.08204773813486099
+  },
+  {
+   "name": "midsole.3",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.08204773813486099
+  },
+  {
+   "name": "midsole.4",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.08204773813486099
+  },
+  {
+   "name": "outsole",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.039586618542671204
+  },
+  {
+   "name": "outsole.10",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.039586618542671204
+  },
+  {
+   "name": "outsole.11",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.039586618542671204
+  },
+  {
+   "name": "outsole.2",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.039586618542671204
+  },
+  {
+   "name": "outsole.3",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.039586618542671204
+  },
+  {
+   "name": "outsole.4",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.039586618542671204
+  },
+  {
+   "name": "outsole.5",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.039586618542671204
+  },
+  {
+   "name": "outsole.6",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.039586618542671204
+  },
+  {
+   "name": "outsole.7",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.039586618542671204
+  },
+  {
+   "name": "outsole.8",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.039586618542671204
+  },
+  {
+   "name": "outsole.9",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.039586618542671204
+  },
+  {
+   "name": "side_frame.L",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.7755717039108276
+  },
+  {
+   "name": "side_frame.L.2",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.7755717039108276
+  },
+  {
+   "name": "side_triangle_front.L",
+   "color": "#1b2045",
+   "detail": 0.5,
+   "ink": 0.0,
+   "mean": 0.07631099969148636
+  },
+  {
+   "name": "side_triangle_front.R",
+   "color": "#1b2045",
+   "detail": 0.5,
+   "ink": 0.0,
+   "mean": 0.07672327011823654
+  },
+  {
+   "name": "side_triangle_lower.L",
+   "color": "#1b2045",
+   "detail": 0.5,
+   "ink": 0.0,
+   "mean": 0.08267898112535477
+  },
+  {
+   "name": "side_triangle_lower.L.2",
+   "color": "#1b2045",
+   "detail": 0.5,
+   "ink": 0.0,
+   "mean": 0.08267898112535477
+  },
+  {
+   "name": "side_triangle_lower.R",
+   "color": "#1b2045",
+   "detail": 0.5,
+   "ink": 0.0,
+   "mean": 0.08257877826690674
+  },
+  {
+   "name": "side_triangle_top.L",
+   "color": "#1b2045",
+   "detail": 0.5,
+   "ink": 0.0,
+   "mean": 0.06858555972576141
+  },
+  {
+   "name": "side_triangle_top.R",
+   "color": "#1b2045",
+   "detail": 0.5,
+   "ink": 0.0,
+   "mean": 0.09174265712499619
+  },
+  {
+   "name": "side_triangle_upper.L",
+   "color": "#1b2045",
+   "detail": 0.5,
+   "ink": 0.0,
+   "mean": 0.06725835800170898
+  },
+  {
+   "name": "side_triangle_upper.R",
+   "color": "#1b2045",
+   "detail": 0.5,
+   "ink": 0.0,
+   "mean": 0.07373826205730438
+  },
+  {
+   "name": "side_triangle_upper.R.2",
+   "color": "#1b2045",
+   "detail": 0.5,
+   "ink": 0.0,
+   "mean": 0.07373826205730438
+  },
+  {
+   "name": "sole_window_front",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.8300288319587708
+  },
+  {
+   "name": "sole_window_mid",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.772840678691864
+  },
+  {
+   "name": "sole_window_mid.2",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.772840678691864
+  },
+  {
+   "name": "toe_bumper",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.0635809525847435
+  },
+  {
+   "name": "toe_bumper.2",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.0635809525847435
+  },
+  {
+   "name": "toe_cap",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.08158833533525467
+  },
+  {
+   "name": "toe_cap.2",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.08158833533525467
+  },
+  {
+   "name": "toe_cap.3",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.08158833533525467
+  },
+  {
+   "name": "tongue",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.05962086841464043
+  },
+  {
+   "name": "tongue_logo",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.6000000238418579,
+   "mean": 0.583440363407135
+  },
+  {
+   "name": "vamp",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.08051152527332306
+  },
+  {
+   "name": "vamp.2",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.08051152527332306
+  },
+  {
+   "name": "vamp.3",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.08051152527332306
+  },
+  {
+   "name": "vamp.4",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.08051152527332306
+  },
+  {
+   "name": "vamp.5",
+   "color": "#f1f1f3",
+   "detail": 0.6000000238418579,
+   "ink": 0.0,
+   "mean": 0.08051152527332306
+  }
+ ],
+ "bboxMin": [
+  -0.19703295826911926,
+  -0.4999885559082031,
+  -0.3437120318412781
+ ],
+ "bboxSize": [
+  0.3933536410331726,
+  1.0000014305114746,
+  0.6869726181030273
+ ],
+ "mmPerUnit": 309.99955654207724,
+ "res": 4096
+}
